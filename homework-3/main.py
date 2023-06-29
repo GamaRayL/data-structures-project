@@ -5,6 +5,7 @@ if __name__ == '__main__':
 
     # Магический метод __str__ возвращает пустую строку
     assert str(Queue()) == ""
+    print(str(Queue()) == "")
 
     # Добавляем данных в очередь
     queue.enqueue('data1')
